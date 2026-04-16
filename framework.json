@@ -1,0 +1,837 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "released": "2026-04-15",
+    "product": "FPonboard",
+    "tagline": "Acelera tu capacidad productiva.",
+    "title": "FPonboard — Marco de Itinerarios 2026 para FP Informática y Comunicaciones",
+    "description": "Estándar abierto de itinerarios técnicos para estudiantes de FP Informática y Comunicaciones. Cada itinerario lleva al estudiante desde su título FP hasta ser productivo en un equipo real.",
+    "language": "es",
+    "target": "FP Informática y Comunicaciones — España",
+    "threshold": 75,
+    "org": "fponboard"
+  },
+  "itineraries": [
+    {
+      "id": "web",
+      "label": "Desarrollador/a Web Full-Stack",
+      "tagline": "Construye y despliega aplicaciones web completas",
+      "destination": "Puedes contribuir desde el primer día en un equipo de desarrollo web con TypeScript, APIs REST, CI/CD y features de IA.",
+      "color": "#1D6FA4",
+      "bg": "#E8F4FB",
+      "text": "#0D4F7A",
+      "recommendedFor": [
+        "daw",
+        "dam",
+        "ce-python"
+      ],
+      "skills": [
+        {
+          "id": "web-ts",
+          "label": "TypeScript en todo el stack — sin JS plano",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-rest",
+          "label": "APIs REST — diseño, versioning, paginación, errores",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-git",
+          "label": "Git workflow — ramas, PRs, commits con sentido",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-deploy",
+          "label": "Despliegue en cloud — Vercel, Render, Railway",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-db",
+          "label": "PostgreSQL — esquemas, índices, relaciones",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-auth",
+          "label": "Autenticación y autorización — JWT, OAuth",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-cicd",
+          "label": "CI/CD — GitHub Actions, tests automáticos",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-docker",
+          "label": "Docker — Dockerfile y docker-compose",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-realtime",
+          "label": "Real-time — SSE y WebSockets",
+          "added": "3.0.0"
+        },
+        {
+          "id": "web-ai",
+          "label": "Integración de IA — OpenAI API, respuestas en streaming",
+          "added": "3.0.0"
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "label": "Desarrollador/a de Aplicaciones y Servicios",
+      "tagline": "Diseña servicios backend robustos y escalables",
+      "destination": "Puedes construir y mantener servicios backend en producción: arquitectura modular, colas, workers y observabilidad.",
+      "color": "#B8670C",
+      "bg": "#FDF0E0",
+      "text": "#7A4809",
+      "recommendedFor": [
+        "dam",
+        "daw",
+        "ce-python"
+      ],
+      "skills": [
+        {
+          "id": "app-ts",
+          "label": "TypeScript — tipado fuerte en servicios y APIs",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-arch",
+          "label": "Arquitectura backend — servicios, módulos, responsabilidades",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-api",
+          "label": "Diseño de API — OpenAPI/Swagger, contratos claros",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-db",
+          "label": "Diseño de base de datos — índices, relaciones, escalado",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-test",
+          "label": "Testing — unitario, integración y end-to-end",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-docker",
+          "label": "Docker y Kubernetes básico — contenedores en producción",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-queue",
+          "label": "Colas y workers — Redis/BullMQ, retry, dead-letter",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-obs",
+          "label": "Observabilidad — logs estructurados, métricas, trazas",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-events",
+          "label": "Sistemas event-driven — consistencia eventual",
+          "added": "3.0.0"
+        },
+        {
+          "id": "app-cicd",
+          "label": "CI/CD — pipelines con tests de integración automáticos",
+          "added": "3.0.0"
+        }
+      ]
+    },
+    {
+      "id": "ops",
+      "label": "DevOps y Cloud",
+      "tagline": "Despliega y gestiona infraestructura real",
+      "destination": "Puedes gestionar, desplegar y monitorizar infraestructura en un equipo técnico usando IaC, CI/CD avanzado y cloud real.",
+      "color": "#2A7A4A",
+      "bg": "#E6F4EC",
+      "text": "#1A5C34",
+      "recommendedFor": [
+        "asir",
+        "ce-contenedores",
+        "ce-cloud"
+      ],
+      "skills": [
+        {
+          "id": "ops-docker",
+          "label": "Docker avanzado — multi-stage builds, optimización",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-k8s",
+          "label": "Kubernetes — pods, services, deployments, HPA",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-iac",
+          "label": "Infrastructure as Code — Terraform o Pulumi",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-cicd",
+          "label": "CI/CD avanzado — blue-green, canary, rollback",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-cloud",
+          "label": "Cloud — AWS ECS o GCP Cloud Run en producción",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-obs",
+          "label": "Observabilidad completa — métricas, trazas, alertas",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-sec",
+          "label": "Seguridad en infra — secrets, rotación, vault",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-cost",
+          "label": "Optimización de costes — monitoring y alertas de gasto",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-multienv",
+          "label": "Separación de entornos — dev, staging y producción",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ops-gitops",
+          "label": "GitOps — infraestructura gestionada como código",
+          "added": "3.0.0"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": "Desarrollador/a de Sistemas IA",
+      "tagline": "Construye sistemas IA reales en producción",
+      "destination": "Puedes construir y mantener sistemas IA en producción: RAG, LLMOps, streaming y guardrails reales.",
+      "color": "#5A3FB5",
+      "bg": "#EEEAFB",
+      "text": "#3A278A",
+      "recommendedFor": [
+        "ce-ia-bigdata",
+        "ce-python",
+        "daw",
+        "dam"
+      ],
+      "skills": [
+        {
+          "id": "ai-python",
+          "label": "Python para IA — async, typing, FastAPI",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-api",
+          "label": "APIs de modelos — OpenAI, embeddings, completions",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-rag",
+          "label": "RAG — chunking, embeddings, retrieval, pgvector",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-streaming",
+          "label": "Streaming — SSE, tokens en tiempo real al cliente",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-llmops",
+          "label": "LLMOps — prompt versioning, cost tracking, evals",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-obs",
+          "label": "Observabilidad IA — Langfuse, trazas de llamadas LLM",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-prompt",
+          "label": "Prompt engineering — sistemático, testado, versionado",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-guardrails",
+          "label": "Guardrails — validación de outputs, content filtering",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-context",
+          "label": "Gestión de contexto — chunking, token budgets",
+          "added": "3.0.0"
+        },
+        {
+          "id": "ai-agents",
+          "label": "Agentes — tool calling, orquestación, memoria",
+          "added": "3.0.0"
+        }
+      ]
+    },
+    {
+      "id": "sec",
+      "label": "Seguridad en Aplicaciones",
+      "tagline": "Construye aplicaciones seguras desde el código",
+      "destination": "Puedes identificar y corregir vulnerabilidades reales en aplicaciones, y construir sistemas seguros desde el primer día.",
+      "color": "#B83232",
+      "bg": "#FBEAEA",
+      "text": "#8A1E1E",
+      "recommendedFor": [
+        "ce-ciberseguridad",
+        "daw",
+        "dam",
+        "asir"
+      ],
+      "skills": [
+        {
+          "id": "sec-ts",
+          "label": "TypeScript seguro — input validation, type safety",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-auth",
+          "label": "Autenticación robusta — JWT, OAuth, sesiones seguras",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-secrets",
+          "label": "Gestión de secretos — vault, rotación, sin hardcoding",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-input",
+          "label": "Validación de inputs — SQL injection, XSS, sanitización",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-injection",
+          "label": "Prompt injection — detección, mitigación, guardrails",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-https",
+          "label": "HTTPS y TLS — certificados, HSTS, configuración segura",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-deps",
+          "label": "Seguridad en dependencias — auditoría, actualizaciones",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-logging",
+          "label": "Logging seguro — sin datos sensibles, trazabilidad",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-owasp",
+          "label": "OWASP Top 10 — conocimiento y mitigación práctica",
+          "added": "3.0.0"
+        },
+        {
+          "id": "sec-ci",
+          "label": "Security en CI/CD — SAST, secret scanning",
+          "added": "3.0.0"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-web-1",
+      "itinerary": "web",
+      "label": "App SaaS con IA",
+      "desc": "SaaS full-stack con auth, PostgreSQL y una feature de IA con streaming. Desplegado en Vercel + Render.",
+      "stack": [
+        "Next.js",
+        "NestJS",
+        "PostgreSQL",
+        "OpenAI API",
+        "Vercel"
+      ],
+      "requiredSkills": [
+        "web-ts",
+        "web-rest",
+        "web-git",
+        "web-deploy",
+        "web-db",
+        "web-auth",
+        "web-cicd",
+        "web-ai"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-web-2",
+      "itinerary": "web",
+      "label": "API REST de producción",
+      "desc": "API con versioning, rate limiting, OpenAPI, Docker y CI/CD completo. Tests de integración automáticos.",
+      "stack": [
+        "NestJS",
+        "PostgreSQL",
+        "Docker",
+        "GitHub Actions",
+        "Railway"
+      ],
+      "requiredSkills": [
+        "web-ts",
+        "web-rest",
+        "web-git",
+        "web-cicd",
+        "web-docker"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-web-3",
+      "itinerary": "web",
+      "label": "Dashboard en tiempo real",
+      "desc": "Dashboard con datos en tiempo real via SSE, observabilidad y despliegue en cloud.",
+      "stack": [
+        "Next.js",
+        "Node.js",
+        "SSE",
+        "PostgreSQL",
+        "GitHub Actions"
+      ],
+      "requiredSkills": [
+        "web-ts",
+        "web-rest",
+        "web-cicd",
+        "web-realtime",
+        "web-deploy"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-app-1",
+      "itinerary": "app",
+      "label": "SaaS con background jobs",
+      "desc": "Sistema de gestión con colas Redis, workers, retry logic y métricas de throughput.",
+      "stack": [
+        "NestJS",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+        "Docker",
+        "Grafana"
+      ],
+      "requiredSkills": [
+        "app-ts",
+        "app-arch",
+        "app-db",
+        "app-docker",
+        "app-queue",
+        "app-obs",
+        "app-cicd"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-app-2",
+      "itinerary": "app",
+      "label": "Sistema de notificaciones event-driven",
+      "desc": "Plataforma async con consistencia eventual, dead-letter queue y arquitectura documentada.",
+      "stack": [
+        "NestJS",
+        "Redis",
+        "BullMQ",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "requiredSkills": [
+        "app-ts",
+        "app-arch",
+        "app-queue",
+        "app-events",
+        "app-obs",
+        "app-test"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-app-3",
+      "itinerary": "app",
+      "label": "API con OpenAPI y testing completo",
+      "desc": "Servicio backend con contrato OpenAPI, tests unitarios, integración y e2e, y CI/CD.",
+      "stack": [
+        "NestJS",
+        "PostgreSQL",
+        "Docker",
+        "GitHub Actions",
+        "Jest"
+      ],
+      "requiredSkills": [
+        "app-ts",
+        "app-api",
+        "app-db",
+        "app-test",
+        "app-cicd",
+        "app-docker"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-ops-1",
+      "itinerary": "ops",
+      "label": "Infraestructura completa con Terraform",
+      "desc": "Infraestructura cloud completa con IaC, separación de entornos y GitOps.",
+      "stack": [
+        "Terraform",
+        "AWS",
+        "GitHub Actions",
+        "Docker",
+        "Prometheus"
+      ],
+      "requiredSkills": [
+        "ops-docker",
+        "ops-iac",
+        "ops-cloud",
+        "ops-multienv",
+        "ops-gitops"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-ops-2",
+      "itinerary": "ops",
+      "label": "Pipeline CI/CD con blue-green deploy",
+      "desc": "Pipeline de despliegue avanzado con estrategia blue-green, rollback automático y alertas.",
+      "stack": [
+        "GitHub Actions",
+        "Kubernetes",
+        "Terraform",
+        "AWS",
+        "Grafana"
+      ],
+      "requiredSkills": [
+        "ops-k8s",
+        "ops-cicd",
+        "ops-obs",
+        "ops-sec",
+        "ops-cost"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-ops-3",
+      "itinerary": "ops",
+      "label": "Kubernetes con observabilidad completa",
+      "desc": "Cluster Kubernetes en cloud con métricas, trazas, alertas y optimización de costes.",
+      "stack": [
+        "Kubernetes",
+        "Prometheus",
+        "Grafana",
+        "AWS",
+        "Terraform"
+      ],
+      "requiredSkills": [
+        "ops-docker",
+        "ops-k8s",
+        "ops-cloud",
+        "ops-obs",
+        "ops-cost",
+        "ops-multienv"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-ai-1",
+      "itinerary": "ai",
+      "label": "Sistema RAG para documentos",
+      "desc": "Chat sobre documentos con pgvector, streaming SSE, Langfuse y evaluación de calidad.",
+      "stack": [
+        "FastAPI",
+        "pgvector",
+        "OpenAI",
+        "Langfuse",
+        "Next.js",
+        "AWS"
+      ],
+      "requiredSkills": [
+        "ai-python",
+        "ai-api",
+        "ai-rag",
+        "ai-streaming",
+        "ai-obs",
+        "ai-context"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-ai-2",
+      "itinerary": "ai",
+      "label": "Aplicación IA con LLMOps completo",
+      "desc": "Sistema IA en producción con prompt versioning, cost tracking, guardrails y evals como CI gate.",
+      "stack": [
+        "FastAPI",
+        "OpenAI",
+        "Langfuse",
+        "PostgreSQL",
+        "GitHub Actions"
+      ],
+      "requiredSkills": [
+        "ai-python",
+        "ai-api",
+        "ai-llmops",
+        "ai-obs",
+        "ai-prompt",
+        "ai-guardrails"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-ai-3",
+      "itinerary": "ai",
+      "label": "Agente con tool calling y memoria",
+      "desc": "Agente LLM con tool calling, memoria persistente via pgvector y orquestación de pasos.",
+      "stack": [
+        "FastAPI",
+        "OpenAI",
+        "pgvector",
+        "Redis",
+        "Next.js"
+      ],
+      "requiredSkills": [
+        "ai-python",
+        "ai-api",
+        "ai-rag",
+        "ai-agents",
+        "ai-context",
+        "ai-guardrails"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-sec-1",
+      "itinerary": "sec",
+      "label": "API con seguridad real",
+      "desc": "API con auth robusta, input validation, secrets en vault y security scanning en CI.",
+      "stack": [
+        "NestJS",
+        "PostgreSQL",
+        "Vault",
+        "GitHub Actions",
+        "Docker"
+      ],
+      "requiredSkills": [
+        "sec-ts",
+        "sec-auth",
+        "sec-secrets",
+        "sec-input",
+        "sec-ci"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-sec-2",
+      "itinerary": "sec",
+      "label": "App con protección anti-injection",
+      "desc": "Aplicación con protección real contra SQL injection, XSS, prompt injection y logging seguro.",
+      "stack": [
+        "NestJS",
+        "PostgreSQL",
+        "OpenAI",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "requiredSkills": [
+        "sec-ts",
+        "sec-input",
+        "sec-injection",
+        "sec-https",
+        "sec-logging",
+        "sec-owasp"
+      ],
+      "added": "3.0.0"
+    },
+    {
+      "id": "p-sec-3",
+      "itinerary": "sec",
+      "label": "Auditoría y hardening de app",
+      "desc": "Análisis de seguridad de una app existente: OWASP top 10, dependencias, SAST y remediación.",
+      "stack": [
+        "OWASP ZAP",
+        "Snyk",
+        "GitHub Actions",
+        "Docker",
+        "NestJS"
+      ],
+      "requiredSkills": [
+        "sec-owasp",
+        "sec-deps",
+        "sec-ci",
+        "sec-logging",
+        "sec-https"
+      ],
+      "added": "3.0.0"
+    }
+  ],
+  "fpTitles": [
+    {
+      "id": "daw",
+      "label": "Técnico Superior en Desarrollo de Aplicaciones Web",
+      "short": "DAW",
+      "grade": "Grado Superior",
+      "description": "Desarrollo web front-end y back-end, bases de datos, despliegue básico",
+      "coveredSkills": [
+        "web-rest",
+        "web-git",
+        "web-db",
+        "web-deploy",
+        "app-ts"
+      ],
+      "recommendedItineraries": [
+        "web",
+        "app"
+      ]
+    },
+    {
+      "id": "dam",
+      "label": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
+      "short": "DAM",
+      "grade": "Grado Superior",
+      "description": "Desarrollo de aplicaciones Java/Kotlin, bases de datos, interfaces multiplataforma",
+      "coveredSkills": [
+        "web-git",
+        "app-ts",
+        "app-db",
+        "app-arch"
+      ],
+      "recommendedItineraries": [
+        "app",
+        "web"
+      ]
+    },
+    {
+      "id": "asir",
+      "label": "Técnico Superior en Administración de Sistemas Informáticos en Red",
+      "short": "ASIR",
+      "grade": "Grado Superior",
+      "description": "Administración de servidores, redes, virtualización, seguridad básica",
+      "coveredSkills": [
+        "ops-docker",
+        "ops-cloud",
+        "ops-sec",
+        "sec-auth",
+        "ops-multienv"
+      ],
+      "recommendedItineraries": [
+        "ops",
+        "sec"
+      ]
+    },
+    {
+      "id": "smr",
+      "label": "Técnico en Sistemas Microinformáticos y Redes",
+      "short": "SMR",
+      "grade": "Grado Medio",
+      "description": "Hardware, redes locales, sistemas operativos, soporte técnico",
+      "coveredSkills": [
+        "ops-docker"
+      ],
+      "recommendedItineraries": [
+        "ops"
+      ]
+    },
+    {
+      "id": "ce-ciberseguridad",
+      "label": "CE en Ciberseguridad en Entornos de las TI",
+      "short": "CE Ciberseg.",
+      "grade": "Curso de Especialización",
+      "description": "Seguridad ofensiva y defensiva, análisis forense, bastionado",
+      "coveredSkills": [
+        "sec-auth",
+        "sec-input",
+        "sec-https",
+        "sec-deps",
+        "sec-logging",
+        "sec-owasp"
+      ],
+      "recommendedItineraries": [
+        "sec"
+      ]
+    },
+    {
+      "id": "ce-python",
+      "label": "CE en Desarrollo de Aplicaciones en Lenguaje Python",
+      "short": "CE Python",
+      "grade": "Curso de Especialización",
+      "description": "Python avanzado, scripting, automatización, APIs",
+      "coveredSkills": [
+        "ai-python",
+        "web-rest",
+        "app-api",
+        "web-git"
+      ],
+      "recommendedItineraries": [
+        "ai",
+        "web",
+        "app"
+      ]
+    },
+    {
+      "id": "ce-ia-bigdata",
+      "label": "CE en Inteligencia Artificial y Big Data",
+      "short": "CE IA y Big Data",
+      "grade": "Curso de Especialización",
+      "description": "Machine learning, pipelines de datos, Python, modelos básicos",
+      "coveredSkills": [
+        "ai-python",
+        "ai-api",
+        "ai-context"
+      ],
+      "recommendedItineraries": [
+        "ai"
+      ]
+    },
+    {
+      "id": "ce-contenedores",
+      "label": "CE en Despliegue de Productos Software en Contenedores",
+      "short": "CE Contenedores",
+      "grade": "Curso de Especialización",
+      "description": "Docker, Kubernetes, orquestación de contenedores, CI/CD básico",
+      "coveredSkills": [
+        "ops-docker",
+        "ops-k8s",
+        "ops-cicd"
+      ],
+      "recommendedItineraries": [
+        "ops"
+      ]
+    },
+    {
+      "id": "ce-cloud",
+      "label": "CE en Recursos y Servicios en la Nube",
+      "short": "CE Cloud",
+      "grade": "Curso de Especialización",
+      "description": "AWS/Azure/GCP, servicios cloud, despliegue en nube, IaC básico",
+      "coveredSkills": [
+        "ops-cloud",
+        "ops-iac",
+        "ops-multienv"
+      ],
+      "recommendedItineraries": [
+        "ops"
+      ]
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-04-15",
+      "changes": [
+        "Versión inicial — 5 itinerarios, 50 habilidades, 15 proyectos, 9 títulos FP"
+      ]
+    }
+  ]
+}
